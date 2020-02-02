@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#F0D9E5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Username_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/REGISTER"
+        android:textSize="20sp"
+        android:textColor="#632141"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/Username_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/Username_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Enter your username"/>
+
+    <TextView
+        android:id="@+id/Password_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/Password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:inputType="textPassword"
+        android:hint="Minimal 8 huruf"/>
+
+    <TextView
+        android:id="@+id/Gender_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Gender"/>
+
+    <EditText
+        android:id="@+id/Gender_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Male/Female"/>
+
+    <TextView
+        android:id="@+id/NoHP_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Phone Number"/>
+
+    <EditText
+        android:id="@+id/PhoneNumber_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:inputType="number"
+        android:hint="Enter your phone number"/>
+
+    <TextView
+        android:id="@+id/Country_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Country"/>
+
+    <EditText
+        android:id="@+id/Country_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Enter your country"/>
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#632141"
+        android:layout_gravity="center"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:text="REGISTER"
+        android:textColor="#FDFDFD"/>
+
+
+</LinearLayout>
